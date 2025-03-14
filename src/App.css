@@ -1,7 +1,7 @@
 body {
   margin: 0;
   font-family: "Arial", sans-serif;
-  background: linear-gradient(135deg, #000428, #004e92); /* Azul escuro inspirado no traje */
+  background: linear-gradient(135deg, #000428, #004e92);
   color: white;
 }
 
@@ -12,7 +12,7 @@ body {
   flex-direction: column;
 }
 
-/* NAVBAR */
+
 .navbar {
   display: flex;
   align-items: center;
@@ -57,7 +57,7 @@ body {
 }
 
 .navbar ul li a:hover {
-  color: #ff0000; /* Destaque em vermelho */
+  color: #ff0000; 
 }
 
 .icons {
@@ -74,7 +74,7 @@ body {
   transform: scale(1.2);
 }
 
-/* FUNDO TEMÁTICO DO HOMEM-ARANHA */
+
 .content {
   flex: 1;
   display: flex;
@@ -82,7 +82,7 @@ body {
   align-items: center;
   justify-content: center;
   text-align: center;
-  background: linear-gradient(135deg, #ff0000, #001f3f); /* Vermelho e azul escuro */
+  background: linear-gradient(135deg, #ff0000, #001f3f); 
   padding: 20px;
   border-top: 3px solid rgba(255, 255, 255, 0.2);
 }
@@ -98,7 +98,7 @@ body {
   opacity: 0.9;
 }
 
-/* NOVO ESTILO PARA AS IMAGENS GRANDES */
+
 .image-container {
   display: flex;
   justify-content: center;
@@ -107,7 +107,7 @@ body {
 }
 
 .large-image {
-  height: 150px; /* Aumentando o tamanho */
+  height: 150px; 
   transition: transform 0.3s ease-in-out;
 }
 
@@ -115,7 +115,7 @@ body {
   transform: scale(1.1);
 }
 
-/* RESPONSIVIDADE */
+
 @media (max-width: 768px) {
   .navbar {
     flex-direction: column;
